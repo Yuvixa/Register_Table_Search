@@ -1,14 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 * {
   box-sizing: border-box;
 }
 
 body {
-  margin: 0;
+
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(118,9,121,1) 35%, rgba(91,149,189,1) 100%);;
 }
 
 .container {
-  margin: 1rem;
-  text-align: center;
+  color: aliceblue;
+}
+
+td {
+padding-left: 20px;
 }
 
 .nav {
