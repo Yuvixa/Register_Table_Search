@@ -7,12 +7,25 @@
 }
 
 body {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(71, 75, 76, 0.8),
+    rgba(42, 43, 43, 0.8)
+  ), url("../public/mascotitas.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
 
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(118,9,121,1) 35%, rgba(91,149,189,1) 100%);;
+/* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(118,9,121,1) 35%, rgba(91,149,189,1) 100%);; */
 }
 
 .container {
   color: aliceblue;
+  height: 100vh; 
+     display: flex;
+     flex-direction: column;
+     align-items: center; 
+     justify-content: center;
 }
 
 td {
@@ -20,17 +33,20 @@ padding-left: 20px;
 }
 
 .nav {
-  background-color: #333;
-  color: white;
+  background-color: #f3f6f9;
+  color: black;
   display: flex;
   justify-content: space-between;
   align-items: stretch;
   gap: 2rem;
-  padding: 0 1rem;
+  padding-bottom: 10px;
+  padding-top: 7px;
+  
+
 }
 
 .site-title {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .nav ul {
@@ -47,13 +63,28 @@ padding-left: 20px;
   height: 100%;
   display: flex;
   align-items: center;
-  padding: .25rem;
+  padding-left: 50px;
+  padding-right: 50px;
+
+}
+.nav li {
+  border-color: black;
+  border-radius: 15px;
+  border-width: 2px;
+  
 }
 
 .nav li.active {
-  background-color: #555;
+  background-color: #0d6efd;
+  border-radius: 15px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .nav li:hover {
-  background-color: #777;
+  background-color: black ;
+  color:aqua;
+  border-radius: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
 }

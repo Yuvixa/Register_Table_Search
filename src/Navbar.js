@@ -4,11 +4,11 @@ export default function Navbar() {
   return (
     <nav className="nav">
       <Link to="/" className="site-title">
-        Búsqueda de mascotas
+        Veterinaria Rivero
       </Link>
       <ul>
-        <CustomLink to="/pricing">Registro Usuario</CustomLink>
-        <CustomLink to="/about">Registro Mascotas</CustomLink>
+        <CustomLink to="/pricing">Registro de Usuarios</CustomLink>
+        <CustomLink to="/Registromascota">Registro de Mascotas</CustomLink>
       </ul>
     </nav>
   )
